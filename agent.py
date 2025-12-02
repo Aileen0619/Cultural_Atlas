@@ -99,7 +99,7 @@ print("✅ ADK components imported successfully.")
 import os
 
 try:
-    GOOGLE_API_KEY = "AIzaSyCINWtb9Bm-W4wmTLb4uzz9NmYoyC00DiU"
+    GOOGLE_API_KEY = "{GOOGLE_API_KEY}"
     os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
     print("✅ Setup and authentication complete.")
 except Exception as e:
